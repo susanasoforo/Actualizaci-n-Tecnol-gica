@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML introduction</title>
+</head>
+<body>
+	<div style="background-color: antiquewhite; width: 100%;">
+	<h1>HTML introduction</h1>
+	<h2>what is HTML?</h2>
+	<ul>
+	 <li>standart for Hyper text markup language</li>
+	 <li>describes the structure of a web pages</li>
+	 <li>consists of series of elements </li>
+	 <li>elements tell the browser how to display the content</li>
+	 <li>elemnts consist on pieces label whit content</li>
+	</ul>
+	</div>
+	<div style="background-color: antiquewhite; width: 100%;">   
+	<h2>explicacion de elementos basicos</h2>
+	<ol>
+	 <li>la etiqueta "DOCTYPE" define la declaracion del documento en cuestion como HTML</li>
+	 <li>la etiqueta HTML es el elemento principal de una pafina HTML</li>
+	 <li>la etiqueta "head" contiene informacion adicional acerca de la pagina HTML</li>
+	 <li>la etiqueta "title" especifica el titulo de la pagina HTML</li>
+	 <li>la etiqueta "body" especifica el cuetpo de la pagina web(todos los elementos visibles)</li>
+	 <li>la etiqueta "h1" define un texto de tamaño titular</li>
+	 <li>la etiqueta "h2" define un texto de tamaño subtitular</li>
+	 <li>la etiqueta "p" define un texto de tamaño parrafo</li>
+	</ol>
+	</div>
+	<div style="background-color: aquamarine; width: 100%;">
+	<h2>¿que es un elemento HTML?</h2>
+	<p>un elemento HTML esta definido por una etiqueta de inicio, seguido de algun contenido y una etiqueta de finalizacion</p>
+	<ul>
+		<li>&lt;nombreEtiqueta&gt;: etiqueta de inicio</li>
+		<li>contenido: entre la etiqueta de inicio y la etiqueta de finalizacion</li>
+		<li>&lt;/nombreEtiqeta&gt;: etiqueta de finalizacion</li>
+	</ul>
+	</div>
+	<div style="background-color:beige; width: 100%;">
+	<h2>Atributos HTML</h2>
+	<p>los altributos HTML proporsionan informacion adicional acerca de los elementos HTML (siempre son especificados en la etiqueta de inicio)</p>
+	<ul>
+		<img src = "perro1.JPG" width = "300" height="180">
+	</ul>
+	<ul><a href="https://www.google.com"> click aqui!</a></ul>
+	</div>
+	<div style="background-color:rgb(3, 182, 143);">
+		<ul>
+			<li>Elemento 1</li>
+			<li>Elemento 2</li>
+			<li><div>Elemento 3</div></li>
+		</ul>
+	</div>
+	<div style="background-color: rgb(28, 230, 162); width: 100%;">
+	<h2>Estilos en HTML</h2>
+	<p>los estilos en HTML son atributos usados para añadir diseños a las etiquetas HTML, asi como color, tamaño y mas</p> 
+	<h2>Estructura de atributos de estilo</h2>
+	<p>confugurar el estilo en un elemento HTML se raliza utilizando el atributo HTML <mark>style</p>
+		&lt;tagname style = "property: value; property2: value"&gt contenido &lt;/tagname&gt;;
+	<p style = "color:red;background-color:beige; font-size: 20px;font-family: Verdana; text-align: center;">confugurar el estilo en un elemento HTML se raliza utilizando el atributo HTML</p>
+	<img src = "perro1.JPG" style="width : 300; height : 180; display: block;margin-left: auto;margin-right: auto;">
+	<h2>Etiqueta &lt;map&gt;</h2>
+	<p>la etiqueta &lt;map&gt; define el mapa de una imagen. Una imagen mapeada es una imagen que tiene distintas  areas detectables por el navegador, logrando identificar de manera 
+		independiente cada una de las areas. 
+		<br> la etiqueta &lt;map&gt; define las areas de la imagen mediante la etiqueta &lt;area&gt; con los atributos HTML "shape", que define la forma del area señalada en la imagen, 
+		"coords" que define las cooredenadas de cada uno de los puntos de la shape, "href" que puede definir un hipervinculo para cada una de las areas.
+	</p>
+	<ul>
+		<li>Ejemplo:</li>
+	</ul>
+	</div>
+	<div style="background-color: rgb(7, 102, 70); width: 100%;">
+	<p>
+		&lt;img src="workflow.jpg" usemap="#workmap"&gt; <br>
+		&lt;map name="#workmap"&gt; <br>
+			&lt;area shape="rect" coords="34,44,270,350" href="pagina1.com"&gt; <br>
+			&lt;area shape="circle" coords="200,172,333,250" href="pagina2.com"&gt; <br>
+		&lt;/map&gt;
+	</p>
+	<h2>elemento Table en HTML</h2>
+	<p>La etiqueta &lt;table&gt; permite colocar los datos en fila y columnas usando sus derivadas &lt;tr&gt; para definir una fila (table row), &lt;th&gt; para definir los encabezados 
+		de la tabla (table header) y &lt;td&gt; para asignar valores de las filas correspondientes a los encabezados de las columnas (table data) <br>
+		<ul>
+			<li>Ejemplo:</li>
+		</ul>
+			&lt;tr&gt; <br>
+				&lt;th&gt;Nombre&lt;/th&gt; <br>
+				&lt;th&gt;Apellido&lt;/th&gt; <br>
+				&lt;th&gt;Edad&lt;/th&gt; <br>
+				&lt;th&gt;Direccion&lt;/th&gt; <br>
+			&lt;/tr&gt; <br>
+			&lt;tr&gt; <br>
+				&lt;td&gt;Eduardo&lt;/td&gt; <br>
+				&lt;td&gt;Campos&lt;/td&gt; <br>
+				&lt;td&gt;18&lt;/td&gt; <br>
+				&lt;td&gt;calle 28#3 Col.Arbolrdas Queretaro&lt;/td&gt; <br>
+			&lt;/tr&lt; <br>
+			&lt;tr&gt; <br>
+				&lt;td&gt;ashley&lt;/td&gt; <br>
+				&lt;td&gt;morales&lt;/td&gt; <br>
+				&lt;td&gt;22&lt;/td&gt; <br>
+				&lt;td&gt;Calle Rios Norte #12A Viñedos Queretaro&lt;/td&gt; <br>
+			&lt;/tr&gt; <br>
+		<style>
+			table tr th{
+				border: 1px black solid;
+			}
+			table tr td{
+				border: 1px black solid;
+			}
+		</style>
+
+		<table style="border: 1px black solid; border-collapse: collapse;">
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>Edad</th>
+				<th>Direccion</th>
+			</tr>
+			<tr>
+				<td>Eduardo</td>
+				<td>Campos</td>
+				<td>18</td>
+				<td>calle 28#3 Col.Arbolrdas Queretaro</td>
+			</tr>
+			<tr>
+				<td>ashley</td>
+				<td>morales</td>
+				<td>22</td>
+				<td>Calle Rios Norte #12A Viñedos Queretaro</td>
+			</tr>
+		</table>
+	</div>
+	<div style="background-color: rgb(81, 141, 121); width: 100%;">
+		<h2>Elementos HTML "DIV"</h2>
+		<p>La etiqueta &lt;div&gt; es un elemnto que toma el ancho de la pagina por defecto y realiza automaticamente un salto de linea despues de cada elemnto. &lt;div&gt; se 
+			puede interpretar como contenedor de elementos HTML.
+		</p>
+		<ul>
+			<li>Ejemplo:</li>
+		</ul>
+		&lt;div&gt; <br>
+			&lt;h1&gt;Titulo&lt;/h1&gt; <br>
+			&lt;p&gt;tecto interesante para el titulo&lt;/p&gt; <br>
+		&lt;/div&gt;
+		</div>
+		<div style="display: flex;">
+		<div style = "background-color: aqua; display: flex; width: 50%;">
+			<h1>Titulo 1</h1>
+			<p>texto para el titulo</p>
+			<img src = "perro1.JPG" width = "300" height="180">
+		</div>
+		<div style = "background-color: darkmagenta; display: flex; width: 50%;">
+			<h1>Titulo 2</h1>
+			<p>texto para el titulo 2</p>
+			<img src = "perro1.JPG" width = "300" height="180">
+		</div>
+	 	</div>
+</body>
+</html>
+
+
